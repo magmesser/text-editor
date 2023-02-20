@@ -9,13 +9,15 @@
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
-    "client": "cd client && npm start"
+    "client": "cd client && npm start",
+    "heroku-prebuild": "npm install --dev"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "idb": "^7.1.1",
     "if-env": "^1.0.4"
   },
   "devDependencies": {
