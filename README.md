@@ -71,16 +71,3 @@ Find out more here: https://choosealicense.com/licenses/mit/ <br>
 - Maggie Messer's Email: magmesser@gmail.com <br>
 
 ❗ Repository Link: https://github.com/magmesser/text-editor
-
-
-<!-- Requirements
-- The application works without an internet connection
-
-- Automatically saves content inside the text editor when the DOM window is unfocused
-
-- Create a service worker with workbox that Caches static assets
-
-- Can be installed as a Progressive Web Application
-
- -->
-
